@@ -1,13 +1,13 @@
-# Container module for rhvh-auto-ng
+# Container module for zoidberg-ng
 
 ## Build the container in sub-directory "container" under PROJECT DIR
 ```
-docker build -t rhvh-auto-ng:latest .
+docker build -t zoidberg:latest .
 ```
 
-## Run the test demo
+## Run the test demo with two accessible system(root/redhat) appended
 ```
-python demo.py
+python demo.py $system1_ip $system2_ip
 ```
 
 ## See the output logs with the exited container
